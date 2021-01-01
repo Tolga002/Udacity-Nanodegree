@@ -16,7 +16,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     city_n = ''
 
-    while city_n.lower() not in CITY_DATA: # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    while city_n.lower() not in CITY_DATA:
         city_n= input("\nWhich city would you like to filter? Washington, New York City, or Chicago?\n")
         if city_n.lower() in CITY_DATA:
             city = CITY_DATA[city_n.lower()]
@@ -58,7 +58,7 @@ def load_data(city, month, day):
 
     df['Start Time'] = pd.to_datetime(df['Start Time']) # convert the Start Time column to datetime
 
-    ######################### Extract month and day of week from Start Time to create new columns ##########################
+    ######## Extract month and day of week from Start Time to create new columns ########
 
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
