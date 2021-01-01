@@ -7,7 +7,7 @@ MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
 def get_filters():
-    """Asks user to specify a city, month, and day to analyze.
+    """Asking user to analyze spesific city and time.
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -46,7 +46,7 @@ def get_filters():
 
 
 def load_data(city, month, day):
-    """Loads data for the specified city and filters by month and day if applicable.
+    """Loading data for the selected city and time
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
