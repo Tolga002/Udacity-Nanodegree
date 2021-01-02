@@ -8,7 +8,7 @@ UDACITY-PROGRAMMING for DATA SCIENCE - NANODEGREE PROGRAM BIKE SHARE ANALYSIS fo
 
 Description
 
-I've made an anaylsis for bike share datas for the cities New York City, Washington and Chicago
+We've made an anaylsis for bike share datas for the cities New York City, Washington and Chicago
 
 Files used
 
