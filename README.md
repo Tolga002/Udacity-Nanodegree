@@ -1,4 +1,4 @@
-Date created
+Date Created
 
 02.01.2021 @ 02:20
 
@@ -13,9 +13,9 @@ I've made an anaylsis for bike share datas for the cities New York City, Washing
 Files used
 
 bikeshare.py
-washington.csv
-new_york_city.csv
-chicago.csv
+washington.csv --> Data file of Washington bikeshare analysis, will be shared
+new_york_city.csv --> Data file of New York City bikeshare analysis, will be shared
+chicago.csv --> Data file of Chicago bikeshare analysis, will be shared
 
 Requirements
 This program was written in Python and relies on the following libraries:
