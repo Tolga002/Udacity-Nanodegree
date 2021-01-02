@@ -18,9 +18,9 @@ new_york_city.csv --> Data file of New York City bikeshare analysis, will be sha
 chicago.csv --> Data file of Chicago bikeshare analysis, will be shared
 
 Requirements
-This program was written in Python and relies on the following libraries:
+This program was written in Python and relies on the following libraries :
 pandas
 numpy
 
 Credits
-Udacity Courses, stackoverflow.com and github.com !
+Udacity Courses, stackoverflow.com and github.com, devconnected.com !
